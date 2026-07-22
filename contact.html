@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Innovacare</title>
+<meta name="description" content="Start a confidential conversation with Innovacare. Tell us the situation and what you'd want to be different, and we'll tell you how we'd begin.">
+<link rel="canonical" href="https://www.innovacareusa.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Innovacare">
+<meta property="og:title" content="Contact — Innovacare">
+<meta property="og:description" content="Start a confidential conversation with Innovacare. Tell us the situation and what you'd want to be different, and we'll tell you how we'd begin.">
+<meta property="og:url" content="https://www.innovacareusa.com/contact.html">
+<meta property="og:image" content="https://www.innovacareusa.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#070B14">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/styles.css">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+
+</head>
+<body>
+<header class="nav" data-scrolled="false" data-open="false">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html" aria-label="Innovacare home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="#C6A15B" stroke-width="1.1"><circle cx="16" cy="16" r="10"/><ellipse cx="16" cy="16" rx="10" ry="4"/><ellipse cx="16" cy="16" rx="4" ry="10"/></g><circle cx="16" cy="6" r="1.8" fill="#E4C77E"/><circle cx="25" cy="20" r="1.4" fill="#EDEFF3"/></svg>
+      Innova<b>care</b>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="capabilities.html">Capabilities</a>
+      <a href="industries.html">Industries</a>
+      <a href="approach.html">Approach</a>
+      <a href="insights.html">Insights</a>
+      <a href="about.html">About</a>
+      <a class="btn btn--gold nav__cta" href="contact.html" aria-current="page">Start a conversation</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<main>
+<section class="pagehead">
+  <canvas class="pagehead__canvas" data-network data-nodes="90" data-spin="0.0003" data-pulses="off" aria-hidden="true"></canvas>
+  <div class="wrap pagehead__inner">
+    <p class="crumbs reveal in"><a href="index.html">Home</a> / <span>Contact</span></p>
+    <span class="eyebrow reveal in" data-d="1" style="margin-top:1rem;">First contact</span>
+    <h1 class="reveal in" data-d="1">Tell us what isn't working.</h1>
+    <p class="lede reveal in" data-d="2">Everything is confidential from the first message. Name the situation and the outcome you'd want. If we can help, we'll say how &mdash; if we can't, we'll point you to someone who can.</p>
+  </div>
+</section>
+<section class="section ruled">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow">What to include</span>
+      <p class="mt-md dim" style="max-width:44ch;">The more specific you are, the better our first conversation. A few useful things to mention:</p>
+      <ul class="card__list mt-md">
+        <li>The services or areas you're interested in</li>
+        <li>Your organization and where it sits (system, biotech, PE)</li>
+        <li>The situation and what you'd want to change</li>
+        <li>Any timing or constraints we should know</li>
+      </ul>
+      <p class="mt-lg dim" style="max-width:44ch;">Prefer email? Reach us directly:</p>
+      <a class="link-arrow mt-sm" href="mailto:innovacareusa@gmail.com">innovacareusa@gmail.com <span class="arw" aria-hidden="true">&rarr;</span></a>
+    </div>
+
+    <div class="reveal" data-d="1">
+      <form action="mailto:innovacareusa@gmail.com" method="post" enctype="text/plain" aria-label="Start a conversation">
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="org">Organization</label><input id="org" name="organization" type="text" autocomplete="organization"></div>
+        <div class="grid cols-2" style="gap:var(--space-md);">
+          <div class="field"><label for="sector">Sector</label>
+            <select id="sector" name="sector">
+              <option>Health system / provider</option>
+              <option>Biotech / life sciences</option>
+              <option>Private equity</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field"><label for="region">Region</label>
+            <select id="region" name="region">
+              <option>North America</option>
+              <option>UK &amp; EU</option>
+              <option>Middle East</option>
+              <option>Asia-Pacific</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="message">What's the situation?</label><textarea id="message" name="message" required></textarea></div>
+        <button class="btn btn--gold" type="submit">Send in confidence <span class="arw" aria-hidden="true">&rarr;</span></button>
+        <p class="form-note">This form opens your email client. To wire live submissions, connect a form handler (Formspree, Basin, or your own endpoint) &mdash; see the README.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="#C6A15B" stroke-width="1.1"><circle cx="16" cy="16" r="10"/><ellipse cx="16" cy="16" rx="10" ry="4"/><ellipse cx="16" cy="16" rx="4" ry="10"/></g><circle cx="16" cy="6" r="1.8" fill="#E4C77E"/></svg> Innova<b>care</b></a>
+        <p>Global healthcare consulting for health systems, biotech, and the private equity that backs them.</p>
+      </div>
+      <div><h4>Firm</h4><a href="about.html">About</a><a href="approach.html">Approach</a><a href="insights.html">Insights</a><a href="faq.html">FAQ</a></div>
+      <div><h4>Work</h4><a href="capabilities.html#cost">Cost takeout</a><a href="capabilities.html#leadership">Interim leadership</a><a href="capabilities.html#optimization">Optimization</a><a href="capabilities.html#models">New models</a></div>
+      <div><h4>Sectors</h4><a href="industries.html#systems">Health systems</a><a href="industries.html#biotech">Biotech</a><a href="industries.html#private-equity">Private equity</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="foot__bar">
+      <span>&copy; <span data-year>2026</span> Innovacare. All rights reserved.</span>
+      <span class="foot__region"><span>North America</span><span>UK &amp; EU</span><span>Middle East</span><span>APAC</span></span>
+    </div>
+  </div>
+</footer>
+<script src="js/hero.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
